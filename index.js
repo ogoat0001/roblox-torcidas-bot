@@ -208,7 +208,63 @@ client.on(Events.InteractionCreate, async interaction => {
 
     if (commandName === 'regras') {
       return interaction.reply({
-        content: '📜 Consulte o canal oficial de regras do servidor.',
+        content: '📜・𝐑𝐄𝐆𝐑𝐀𝐒 𝐎𝐅𝐈𝐂𝐈𝐀𝐈𝐒 𝐃𝐎 𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑
+
+Seja bem-vindo(a)! Para mantermos uma comunidade organizada, segura e respeitosa, todos devem seguir as regras abaixo.
+
+━━━━━━━━━━━━━━━━━━━━
+
+🚫・𝟎𝟏. 𝐇𝐎𝐌𝐎𝐅𝐎𝐁𝐈𝐀, 𝐏𝐄𝐃𝐎𝐅𝐈𝐋𝐈𝐀 𝐄 𝐃𝐈𝐒𝐂𝐑𝐈𝐌𝐈𝐍𝐀𝐂̧𝐀̃𝐎
+
+・Proibido qualquer tipo de homofobia, racismo, preconceito ou discriminação social.
+・Não serão tolerados apelidos ofensivos ou comentários discriminatórios.
+・Qualquer apologia ou incentivo à pedofilia é terminantemente proibido.
+・𝐑𝐄𝐒𝐏𝐄𝐈𝐓𝐄 𝐓𝐎𝐃𝐎𝐒 𝐎𝐒 𝐌𝐄𝐌𝐁𝐑𝐎𝐒!
+
+🔞・𝟎𝟐. 𝐍𝐒𝐅𝐖, 𝐏𝐎𝐑𝐍𝐎𝐆𝐑𝐀𝐅𝐈𝐀 𝐄 𝐂𝐎𝐍𝐓𝐄𝐔́𝐃𝐎 𝟏𝟖+
+
+・Proibido enviar pornografia ou qualquer conteúdo sexual explícito.
+・Não compartilhe imagens, vídeos ou links impróprios para menores de idade.
+・Conteúdos NSFW não são permitidos em nenhum canal.
+・𝐓𝐎𝐋𝐄𝐑𝐀̂𝐍𝐂𝐈𝐀 𝐙𝐄𝐑𝐎 𝐏𝐀𝐑𝐀 𝐂𝐎𝐍𝐓𝐄𝐔́𝐃𝐎 𝐈𝐌𝐏𝐑𝐎́𝐏𝐑𝐈𝐎!
+
+🤝・𝟎𝟑. 𝐑𝐄𝐒𝐏𝐄𝐈𝐓𝐎 𝐄𝐍𝐓𝐑𝐄 𝐌𝐄𝐌𝐁𝐑𝐎𝐒
+
+・Trate todos com educação.
+・Evite provocações e discussões desnecessárias.
+・Não pratique bullying, ameaças ou perseguições.
+
+📢・𝟎𝟒. 𝐒𝐏𝐀𝐌 𝐄 𝐃𝐈𝐕𝐔𝐋𝐆𝐀𝐂̧𝐎̃𝐄𝐒
+
+・Evite mensagens repetitivas, flood ou excesso de marcações.
+・Não divulgue outros servidores sem autorização.
+・Proibido compartilhar golpes ou links maliciosos.
+
+🛡️・𝟎𝟓. 𝐑𝐄𝐒𝐏𝐄𝐈𝐓𝐎 𝐀̀ 𝐒𝐓𝐀𝐅𝐅
+
+・Respeite as decisões da equipe administrativa.
+・Não atrapalhe o trabalho dos moderadores.
+・Em caso de discordância, procure a equipe responsável.
+
+⚖️・𝟎𝟔. 𝐏𝐔𝐍𝐈𝐂̧𝐎̃𝐄𝐒
+
+O descumprimento das regras poderá resultar em:
+
+・Advertência (AVISO)
+・Mute (SILENCIAMENTO)
+・Kick (EXPULSÃO)
+・Banimento (PERMANENTE OU TEMPORÁRIO)
+
+𝐀 𝐆𝐑𝐀𝐕𝐈𝐃𝐀𝐃𝐄 𝐃𝐀 𝐈𝐍𝐅𝐑𝐀𝐂̧𝐀̃𝐎 𝐃𝐄𝐓𝐄𝐑𝐌𝐈𝐍𝐀𝐑𝐀́ 𝐀 𝐏𝐔𝐍𝐈𝐂̧𝐀̃𝐎.
+
+━━━━━━━━━━━━━━━━━━━━
+
+⚠️ 𝐀𝐓𝐄𝐍𝐂̧𝐀̃𝐎!
+Ao permanecer no servidor, você concorda em respeitar todas as regras estabelecidas.
+
+❤️ 𝐀 𝐄𝐐𝐔𝐈𝐏𝐄 𝐀𝐃𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐀𝐓𝐈𝐕𝐀 𝐀𝐆𝐑𝐀𝐃𝐄𝐂𝐄 𝐀 𝐂𝐎𝐋𝐀𝐁𝐎𝐑𝐀𝐂̧𝐀̃𝐎!
+
+@everyone.',
         ephemeral: true
       });
     }
@@ -277,5 +333,3 @@ client.on(Events.InteractionCreate, async interaction => {
 });
 
 client.login(process.env.DISCORD_TOKEN);
-
-            
